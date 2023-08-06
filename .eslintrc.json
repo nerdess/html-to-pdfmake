@@ -1,14 +1,10 @@
 {
-  "env": {
-    "browser": true,
-    "amd": true,
-    "node": true
+  "parserOptions": {
+      "ecmaVersion": "latest"
   },
-  "extends": [
-    "eslint:recommended"
-  ],
-  "rules": {
-    "no-extra-semi": "off",
-    "no-console": "off"
+
+  "env": {
+    "node": true,
+    "es6": true
   }
 }
